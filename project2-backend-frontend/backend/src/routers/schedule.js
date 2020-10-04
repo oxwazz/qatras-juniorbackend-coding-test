@@ -3,14 +3,14 @@ const pool = require('../db/postgresql')
 
 const router = express.Router()
 
-router.get('/schedule', async (req, res) => {
-    try {
-        const { rows } = await pool.query('SELECT * FROM schedule')
-        res.send(rows)
-    } catch(e) {
-        res.send(e)
-    }
-})
+// router.get('/schedule', async (req, res) => {
+//     try {
+//         const { rows } = await pool.query('SELECT * FROM schedule')
+//         res.send(rows)
+//     } catch(e) {
+//         res.send(e)
+//     }
+// })
 
 router.post('/schedule', async (req, res) => {
     try {
@@ -52,18 +52,18 @@ router.get('/schedule/date', async (req, res) => {
     }
 })
 
-router.get('/schedule/detail', async (req, res) => {
-    try {
-        const { rows } = await pool.query(
-            `SELECT schedule.id, bus.name as bus, depart.name as station_depart, arrival.name as station_arrival, depart_time, arrival_time FROM schedule
-            INNER JOIN bus ON schedule.bus_id = bus.id
-            INNER JOIN station as depart ON schedule.station_depart_id = depart.id
-            INNER JOIN station as arrival ON schedule.station_arrival_id = arrival.id`)
-        res.send(rows)
-    } catch(e) {
-        res.send(e)
-    }
-})
+// router.get('/schedule/detail', async (req, res) => {
+//     try {
+//         const { rows } = await pool.query(
+//             `SELECT schedule.id, bus.name as bus, depart.name as station_depart, arrival.name as station_arrival, depart_time, arrival_time FROM schedule
+//             INNER JOIN bus ON schedule.bus_id = bus.id
+//             INNER JOIN station as depart ON schedule.station_depart_id = depart.id
+//             INNER JOIN station as arrival ON schedule.station_arrival_id = arrival.id`)
+//         res.send(rows)
+//     } catch(e) {
+//         res.send(e)
+//     }
+// })
 
 router.get('/schedule/search', async (req, res) => {
     try {
