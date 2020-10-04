@@ -13,7 +13,7 @@ Endpoints for viewing and manipulating the Items.
 * `DELETE /items/:id` - Delete Single Item With ID
 
 ## Screenshot
-Some Api Example test with Postman
+Some Example Api test with Postman
 ![Screenshot (379)](https://user-images.githubusercontent.com/58234878/95008338-42e7e000-0643-11eb-9105-85d020fb6755.png)
 ![Screenshot (380)](https://user-images.githubusercontent.com/58234878/95008339-454a3a00-0643-11eb-9710-dc05bb0f7d55.png)
 ![Screenshot (381)](https://user-images.githubusercontent.com/58234878/95008340-467b6700-0643-11eb-8622-94ed03942c92.png)
