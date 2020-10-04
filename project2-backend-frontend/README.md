@@ -1,59 +1,66 @@
 # Project1 (Items API)
 
+ABOUTTTTTTTTTT
+SCRENSHOOTTTTTTTTTTT
+
 ## Stack Tech :dart:
 ### back-end :wrench:
 - [x] RESTful API Using Expressjs and PosgreSQL
 
-
 ## Endpoint
 Endpoints for viewing and manipulating the Items.
 
-* `GET /items/` : Read All Items
-* `POST /items/` : Create New Item
-* `GET /items/:idOrName/` : Read Single Item With ID or Item Name
-* `PUT /items/:id/` : Update Existing Item With ID
-* `DELETE /items/:id` : Delete Single Item With ID
+* `GET /items/` - Read All Items
+* `POST /items/` - Create New Item
+* `GET /items/:idOrName/` - Read Single Item With ID or Item Name
+* `PUT /items/:id/` - Update Existing Item With ID
+* `DELETE /items/:id` - Delete Single Item With ID
 
 ## Screenshot
-endpoint
+
+SCRENSHOOTTTTTTTTTTT
+
+=========================
+# Project2 (Bus Scheduling)
+
+ABOUTTTTTTTTTT
+SCRENSHOOTTTTTTTTTTT
+
+## Stack Tech :dart:
+### back-end :wrench:
+- [x] RESTful API Using Expressjs and PosgreSQL
+
+### front-end :art:
+- [x] Bootstrap
+- [x] Vue.js, Axios
+
+## Endpoint
+### Bus Endpoint
+* `POST /bus/photo/:id/` - Upload Bus Photo With ID
+* `DELETE /bus/photo/:id/` - Delete Bus Photo With ID
+* `GET /bus/photo/:name/` - View Bus Image With Bus Name
+* `GET /bus/` - Read All Bus
+* `POST /bus/` - Create Bus
+* `PUT /bus/:id/` - Update Existing Bus With ID
+* `DELETE /bus/:id/` - Delete Single Bus With ID
+
+### Station Endpoint
+* `GET /station/` - Read All Station
+* `POST /station/` - Create New Station
+* `PUT /station/:id/` - Update Existing Station With ID
+* `DELETE /station/:id/` - Delete Single Station With ID
+
+### Schedule Endpoint
+* `POST /schedule/` - Create New Schedule
+* `PUT /schedule/:id/` - Update Existing Schedule With ID
+* `DELETE /schedule/:id/` - Delete Single Shedule With ID
+* `GET /schedule/date/` - Read All Date Available
+* `GET /schedule/search?query=/` - Read All Schedules With Queries
 
 
+## Screenshot
 
-endpoint bus, station, schedule
-POST /bus/photo/:id - upload bus id photo
-DELETE /bus/photo/:id - delete bus id photo 
-GET /bus/photo/:name - view bus id image
-GET /bus - read all bus
-POST /bus - create bus
-PUT /bus/:id - update existing bus with id
-DELETE /bus/:id - delete single bus with id
-
-GET /station - read all station
-POST /station - create new station
-PUT /station/:id - update existing station with id
-DELETE /station/:id - delete single station with id
-
-POST /schedule - create new schedule
-PUT /schedule/:id - update existing schedule with id
-DELETE /schedule/:id - delete single shedule with id
-GET /schedule/date - read all date available
-GET /schedule/search?xxx="" - read all schedules with queries
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+SCRENSHOOTTTTTTTTTTT
 
 
 
