@@ -9,7 +9,7 @@ const router = express.Router()
 const upload = multer({
     storage: multer.diskStorage({
         destination: function (req, file, cb) {
-          cb(null, './src/img')
+          cb(null, path.resolve(__dirname, `../img`))
         },
         filename: function (req, file, cb) {
           cb(null, 'photo-' + Date.now() + '.jpg')
@@ -17,10 +17,11 @@ const upload = multer({
       })
 })
 
-router.post('/bus/photo/:id',upload.single('photo'), async (req, res) => {
+router.post('/bus/photo/:id', upload.single('photo'), async (req, res) => {
     try {
         const { filename } = req.file
         const { id } = req.params
+        console.log(req.params.id)
         await pool.query('UPDATE bus SET photo=$1 WHERE id=$2', [filename, id])
         res.send(`photo has been added to bus id: ${id}`)
     } catch(e) {
@@ -32,7 +33,8 @@ router.delete('/bus/photo/:id', async (req, res) => {
     try {
         const { id } = req.params
         const { rows } = await pool.query('SELECT photo FROM bus WHERE id=$1', [id])
-        fs.unlinkSync('../img/' + rows[0].photo)
+        console.log(rows[0].photo)
+        fs.unlinkSync(path.resolve(__dirname, `../img/${rows[0].photo}`))
         await pool.query('UPDATE bus SET photo=null WHERE id=$1', [id])
         res.send(`photo id: ${id} deleted`)
     } catch (e) {
