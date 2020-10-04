@@ -35,7 +35,7 @@
 
 ## Screenshot
 
-Some Api Example test with Postman
+Some Example Api test with Postman
 ![Screenshot (373)](https://user-images.githubusercontent.com/58234878/95008262-78d89480-0642-11eb-83aa-188ffa329614.png)
 ![Screenshot (374)](https://user-images.githubusercontent.com/58234878/95008264-7aa25800-0642-11eb-8d4c-6ff589bf8009.png)
 ![Screenshot (375)](https://user-images.githubusercontent.com/58234878/95008266-7bd38500-0642-11eb-87ac-d436d93e09f7.png)
