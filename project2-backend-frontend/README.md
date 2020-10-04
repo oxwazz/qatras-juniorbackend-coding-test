@@ -1,6 +1,8 @@
 # Project2 (Bus Scheduling)
 <img src="https://user-images.githubusercontent.com/58234878/95007917-32ce0180-063f-11eb-86f0-03c2c1f8cea9.png" width="700">
+
 ## Stack Tech :dart:
+
 ### back-end :wrench:
 - [x] RESTful API Using Expressjs and PosgreSQL
 
