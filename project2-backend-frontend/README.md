@@ -1,10 +1,22 @@
-project1
+# Project1 (Items API)
+
+## Stack Tech :dart:
+### back-end :wrench:
+- [x] RESTful API Using Expressjs and PosgreSQL
+
+
+## Endpoint
+Endpoints for viewing and manipulating the Items.
+
+* `GET /items/` : Read All Items
+* `POST /items/` : Create New Item
+* `GET /items/:idOrName/` : Read Single Item With ID or Item Name
+* `PUT /items/:id/` : Update Existing Item With ID
+* `DELETE /items/:id` : Delete Single Item With ID
+
+## Screenshot
 endpoint
-GET /items - read all items
-POST /items - create new item {"name":"xxx", "desc":"xxx"}
-GET /items/:idOrName - read single item with id or item name
-PUT /items/:id - update existing item {"name":"xxxChange", "desc":"xxxChange"}
-DELETE /items/:id - delete single item with id
+
 
 
 endpoint bus, station, schedule
