@@ -1,6 +1,7 @@
 const express = require('express')
 const multer = require('multer')
 const fs = require('fs')
+const path = require("path");
 const pool = require('../db/postgresql')
 
 const router = express.Router()
@@ -8,7 +9,7 @@ const router = express.Router()
 const upload = multer({
     storage: multer.diskStorage({
         destination: function (req, file, cb) {
-          cb(null, '../img/')
+          cb(null, './src/img')
         },
         filename: function (req, file, cb) {
           cb(null, 'photo-' + Date.now() + '.jpg')
@@ -35,6 +36,16 @@ router.delete('/bus/photo/:id', async (req, res) => {
         await pool.query('UPDATE bus SET photo=null WHERE id=$1', [id])
         res.send(`photo id: ${id} deleted`)
     } catch (e) {
+        res.send(e)
+    }
+})
+router.get('/bus/photo/:name',upload.single('photo'), async (req, res) => {
+    try {
+        const { name } = req.params
+        const { rows } = await pool.query('SELECT photo FROM bus WHERE name=$1', [name])
+        res.set('Content-Type', 'image/jpg')
+        res.send(fs.readFileSync(path.resolve(__dirname, `../img/${rows[0].photo}`)))
+    } catch(e) {
         res.send(e)
     }
 })
