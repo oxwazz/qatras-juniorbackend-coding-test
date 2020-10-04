@@ -22,9 +22,7 @@ SCRENSHOOTTTTTTTTTTT
 
 =========================
 # Project2 (Bus Scheduling)
-
-ABOUTTTTTTTTTT
-SCRENSHOOTTTTTTTTTTT
+![Screenshot (372)](https://user-images.githubusercontent.com/58234878/95007917-32ce0180-063f-11eb-86f0-03c2c1f8cea9.png)
 
 ## Stack Tech :dart:
 ### back-end :wrench:
