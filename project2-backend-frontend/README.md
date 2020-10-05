@@ -4,11 +4,11 @@
 ## Stack Tech :gear:
 
 ### Back-end
-- ✅ RESTful API Using Expressjs and PosgreSQL
+- RESTful API Using Expressjs and PosgreSQL
 
 ### Front-end
-- ✅ Bootstrap
-- ✅ Vue.js, Axios
+- Bootstrap
+- Vue.js, Axios
 
 ## Entity Relationship Diagram (ERD) :triangular_ruler:
 <img src="../src/Project 2 - Bus Scheduling.svg" width="350">
