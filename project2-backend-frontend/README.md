@@ -10,7 +10,7 @@
 - [x] Bootstrap
 - [x] Vue.js, Axios
 
-## Entity Relationship Diagram
+## Entity Relationship Diagram (ERD)
 <img src="../src/Project 2 - Bus Scheduling.png" width="300">
 
 ## Endpoint
