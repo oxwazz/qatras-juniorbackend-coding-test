@@ -11,7 +11,7 @@
 - [x] Vue.js, Axios
 
 ## Entity Relationship Diagram (ERD)
-<img src="../src/Project 2 - Bus Scheduling.png" width="300">
+<img src="../src/Project 2 - Bus Scheduling.svg" width="350">
 
 ## Endpoint
 ### Bus Endpoint
