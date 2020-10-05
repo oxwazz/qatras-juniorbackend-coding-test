@@ -1,19 +1,20 @@
-# Project2 (Bus Scheduling)
+# Project2 (Bus Scheduling) :pushpin:
 <img src="https://user-images.githubusercontent.com/58234878/95007917-32ce0180-063f-11eb-86f0-03c2c1f8cea9.png" width="700">
 
-## Stack Tech :dart:
+## Stack Tech :gear:
 
-### Back-end :wrench:
-- [x] RESTful API Using Expressjs and PosgreSQL
+### Back-end
+✅ RESTful API Using Expressjs and PosgreSQL
 
-### Front-end :art:
-- [x] Bootstrap
-- [x] Vue.js, Axios
+### Front-end
+✅ Bootstrap
+<br>
+✅ Vue.js, Axios
 
 ## Entity Relationship Diagram (ERD)
 <img src="../src/Project 2 - Bus Scheduling.svg" width="350">
 
-## Endpoint
+## Endpoint :mailbox_with_mail:
 ### Bus Endpoint
 * `POST /bus/photo/:id/` - Upload Bus Photo With ID
 * `DELETE /bus/photo/:id/` - Delete Bus Photo With ID
@@ -36,7 +37,7 @@
 * `GET /schedule/date/` - Read All Date Available
 * `GET /schedule/search?query=/` - Read All Schedules With Queries
 
-## Screenshot
+## Screenshot :camera:
 
 Some Example Api test with Postman
 ![Screenshot (373)](https://user-images.githubusercontent.com/58234878/95008262-78d89480-0642-11eb-83aa-188ffa329614.png)
