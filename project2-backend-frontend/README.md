@@ -3,12 +3,15 @@
 
 ## Stack Tech :dart:
 
-### back-end :wrench:
+### Back-end :wrench:
 - [x] RESTful API Using Expressjs and PosgreSQL
 
-### front-end :art:
+### Front-end :art:
 - [x] Bootstrap
 - [x] Vue.js, Axios
+
+## Entity Relationship Diagram
+<img src="../src/Project 2 - Bus Scheduling.png" width="300">
 
 ## Endpoint
 ### Bus Endpoint
