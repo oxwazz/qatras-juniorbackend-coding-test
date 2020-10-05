@@ -1,6 +1,8 @@
 # Project1 (Items API)
+
 ## Stack Tech :dart:
-### back-end :wrench:
+
+### Back-end :wrench:
 - [x] RESTful API Using Expressjs and PosgreSQL
 
 ## Endpoint
@@ -11,6 +13,9 @@ Endpoints for viewing and manipulating the Items.
 * `GET /items/:idOrName/` - Read Single Item With ID or Item Name
 * `PUT /items/:id/` - Update Existing Item With ID
 * `DELETE /items/:id` - Delete Single Item With ID
+
+## Entity Relationship Diagram (ERD)
+<img src="../src/Project 1.svg" width="220">
 
 ## Screenshot
 Some Example Api test with Postman
