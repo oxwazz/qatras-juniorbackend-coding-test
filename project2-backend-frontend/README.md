@@ -4,7 +4,7 @@
 ## Stack Tech :gear:
 
 ### Back-end
-- RESTful API Using Expressjs and PosgreSQL
+- RESTful API Using Expressjs and PostgreSQL
 
 ### Front-end
 - Bootstrap
