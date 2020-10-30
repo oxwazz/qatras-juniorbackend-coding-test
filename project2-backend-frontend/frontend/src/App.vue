@@ -1,6 +1,6 @@
 <template>
 	<div id="app" class="container mt-5 w-50">
-		<app-form-schedule @scheduleSearch='searchSchedule' />
+		<app-form-schedule />
 	</div>
 </template>
 
